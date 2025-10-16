@@ -25,7 +25,7 @@
     const CONFIG = {
         // Cloudflare AI Gateway配置（用于图像识别）
         api: {
-            url: 'https://gateway.ai.cloudflare.com/v1/4744e1720064171b9a5a87c7ae739b2c/test/compat/chat/completions',
+            url: '',
             key: '', // 你的API Key
             model: 'google-ai-studio/gemini-2.5-flash',
             timeout: 60000  // API超时时间（60秒）
@@ -861,5 +861,6 @@
     } else {
         init();
     }
+
 
 })();
