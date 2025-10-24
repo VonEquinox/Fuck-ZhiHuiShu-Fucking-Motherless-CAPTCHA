@@ -7,6 +7,7 @@
 // @match        *://onlineweb.zhihuishu.com/*
 // @match        *://onlineservice.zhihuishu.com/*
 // @match        *://studyh5.zhihuishu.com/*
+// @exclude      *://passport.zhihuishu.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @grant        GM_notification
@@ -864,3 +865,4 @@
 
 
 })();
+
